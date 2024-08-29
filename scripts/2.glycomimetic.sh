@@ -10,7 +10,7 @@ fi
 glycomimeticInputFileName=$1
 systemInfo=$2
 source $systemInfo # installPath and GEMSHOME
-glycomimeticProgram=$installPath/internal/glycomimeticTool/glycomimetic.exe
+glycomimeticProgram=$installPath/internal/glycomimetics/src/glycomimetic.exe
 
 cd glycomimetics/
 

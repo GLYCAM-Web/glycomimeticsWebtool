@@ -17,7 +17,7 @@ if [ -z ${installPath} ]; then
     exit 1
 fi
 glycomimetics_scripts_dir=$installPath/scripts/
-interface_glycam_gaff_path=$installPath/internal/glycam_gaff_interfacing/
+interface_glycam_gaff_path=$installPath/internal/glycomimetics/glycam_gaff_interfacing/
 
 if [ $analog_name == "natural" ]; then
     dirname=$analog_name
