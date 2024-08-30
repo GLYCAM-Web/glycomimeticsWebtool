@@ -66,7 +66,7 @@ ${interface_glycam_gaff_path}/glycamGaffInterfacing.exe \${mol2} ${analog_name}_
 ${glycomimetics_scripts_dir}/5c.tleap.sh ${analog_name}
 " >> slurm_submit.sh
 
-echo "$0 is submitting slurm and waiting"
+echo "$0 is submitting a job to do Antechamber, glycamGaffInterfacing and then tleap to slurm and waiting for the slurm job to finish."
 sbatch --wait slurm_submit.sh
 cd ../
 echo "$0 is finished."

@@ -1,6 +1,6 @@
 #!/bin/bash
 analog_name=$1
-cocomplex_box_size="10"
+cocomplex_box_size="15"
 ligand_box_size="15"
 
 echo "tleap sh analog name: ${analog_name}" 
