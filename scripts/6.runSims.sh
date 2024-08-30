@@ -21,7 +21,7 @@ for folder in analog_* natural; do
      rsync -av ../1_leap/cocomplex.rst7 MdInput.rst7
      # Only write out solute, not solvent
      n=$(grep -c "^ATOM" ../1_leap/cocomplex_nowat_noion.pdb)
-     sed -i "s/ntwprt = 0/ntwprt = '$n'/g" 10.produ.in
+     sed -i "s/ntwprt = 0/ntwprt = $n/g" 10.produ.in
      # Job name
      sed -i "s/JOBNAME/$folder/g" submit.GPU.sh
      sbatch --no-requeue submit.GPU.sh
