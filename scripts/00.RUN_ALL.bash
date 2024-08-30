@@ -64,7 +64,7 @@ fi
 echo "$(date) Charge calculation completed." >> $statusFile
 
 $scripts/5a.runScript.sh $systemInfo >> $output
-if [[ $? -ne 0 || ! -f simulation/1_leap/receptor_nowat_noion.rst7 || ! -f simulation/1_leap/ligand_nowat_noion.rst7 ]]; then
+if [[ $? -ne 0 || ! -f simulation/natural/1_leap/receptor_nowat_noion.rst7 || ! -f simulation/natural/1_leap/ligand_nowat_noion.rst7 ]]; then
     echo "Tleap step failed. $0 is exiting." >> $statusFile
     exit 1;
 fi
