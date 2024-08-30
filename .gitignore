@@ -1,1 +1,4 @@
 *.pyc
+internal/MD_Utils
+internal/glycomimetics
+internal/gmml2/
