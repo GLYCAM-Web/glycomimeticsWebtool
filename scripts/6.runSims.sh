@@ -3,7 +3,7 @@
 if [[ ! -d simulation || $# -ne 1 ]]; then
     echo "$0 must be run in a folder that contains the simulation/ directory"
     echo "Usage: You must supply the location of MD_Utils Roe protocol folder"
-    echo "Exmpl: $0 /programs/glycomimetic/internal/MD_Utils/protocols/RoeProtocol/"
+    echo "Exmpl: $0 /programs/glycomimeticsWebtool/internal/MD_Utils/protocols/RoeProtocol/"
     echo "Exiting"
     exit 1
 fi
