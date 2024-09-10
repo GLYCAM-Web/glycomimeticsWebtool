@@ -17,4 +17,5 @@ cd glycomimetics/glycam_gaff_interfacing/
 source compile.sh  
 cd ../src/  
 source compile.sh  
-
+cd ../validation
+source compile.sh
