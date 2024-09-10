@@ -5,9 +5,7 @@
 # $Header: /opt/cvs/python/packages/share1.5/AutoDockTools/Utilities24/prepare_receptor.py,v 1.6 2007/10/08 18:12:57 rhuey Exp $
 #
 import os 
-import sys
 
-sys.path.append('/scratch1/alex/glyco_project/programs_src/MGLTools-1.5.4/MGLToolsPckgs/MolKit')
 from MolKit import Read
 import MolKit.molecule
 import MolKit.protein

@@ -1,17 +1,10 @@
-#!/usr/bin/env python2
+#!/usr/bin/env /home/yao/programs_src/MGLTools-1.5.4/bin/pythonsh
 #
 # 
 #
 # $Header: /opt/cvs/python/packages/share1.5/AutoDockTools/Utilities24/prepare_receptor4.py,v 1.11 2007/11/28 22:40:22 rhuey Exp $
 #
-import os
-import subprocess
-
-# Get the path to '../../../bin/pythonsh' relative to the current script
-pythonsh_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../../bin/pythonsh')
-
-# Execute the Bash command
-subprocess.call(["/bin/bash", "-c", "#!/usr/bin/env {}".format(pythonsh_path)])
+import os 
 
 from MolKit import Read
 import MolKit.molecule
