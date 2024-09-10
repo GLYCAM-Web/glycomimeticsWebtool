@@ -21,6 +21,7 @@ echo "#!/bin/bash
 #SBATCH --get-user-env
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=2
+#SBATCH --output=slurmGlycomimetic.out
 source /etc/profile.d/modules.sh
 ${glycomimeticProgram} -f ${glycomimeticInputFileName}
 " > slurm_submit_glycomimetics.sh

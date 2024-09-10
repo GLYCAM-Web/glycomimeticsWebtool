@@ -31,6 +31,7 @@ echo "#!/bin/bash
 #SBATCH --partition=gm
 #SBATCH -D 1_leap
 #SBATCH -J E-${analog_name}
+#SBATCH --output=slurmTleap.out
 #SBATCH --get-user-env
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=2
