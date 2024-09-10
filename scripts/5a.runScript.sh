@@ -11,6 +11,18 @@ systemInfo=$1
 source $systemInfo # $installPath
 cd simulation/
 
+#Check that natural ligand exists
+if [[ ! $(ls -d natural) ]]; then
+    echo "Natural ligand folder was not generated in simulation/. Check for earlier errors. Exiting."
+    exit 1
+fi
+
+#Check that analogs exist
+if [[ ! $(ls -d analog_*) ]]; then
+    echo "No analogs folders have been generated in simulation/. Check for earlier errors. Exiting."
+    exit 1
+fi
+
 for dirname in $( ls -d analog_* ); 
 do
     analog_name=$(echo ${dirname} | sed "s/analog_//")
