@@ -1,0 +1,3 @@
+ComplexPdb:cocomplex.pdbqt
+OpenValence:241_A_C9_O9-/programs/glycomimeticsWebtool/library/test1-pdbqt
+naturalCharge:-1
