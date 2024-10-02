@@ -1,3 +1,0 @@
-installPath=/programs/glycomimeticsWebtool
-AMBERHOME=/cm/shared/apps/amber20/ 
-GEMSHOME=/programs/gems/yao
