@@ -17,6 +17,7 @@ $installPath/internal/gmml2/tests/gmPreProcessor.exe $userPdb glycomimetics/proc
 mglPath=$installPath/external/MGLTools-1.5.4/
 export MGLUTIL=$mglPath/MGLToolsPckgs/AutoDockTools/Utilities24/
 export PYTHONPATH="${PYTHONPATH}:${mglPath}MGLToolsPckgs/"
+echo "Running $MGLPY $MGLUTIL/prepare_receptor4.py -r glycomimetics/processed-$userPdb -A hydrogens -U None -o glycomimetics/cocomplex.pdbqt -v"
 $MGLPY $MGLUTIL/prepare_receptor4.py -r glycomimetics/processed-$userPdb -A hydrogens -U None -o glycomimetics/cocomplex.pdbqt -v
 
 echo "Finished $0. Ran from $PWD"
