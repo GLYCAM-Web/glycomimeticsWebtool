@@ -1,4 +1,4 @@
-#!/usr/bin/env /home/yao/programs_src/MGLTools-1.5.4/bin/pythonsh
+#!/usr/bin/env /programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/pythonsh
 #
 # $Id: write_vs_hits.py,v 1.1.2.1 2009/01/09 20:41:22 rhuey Exp $
 #

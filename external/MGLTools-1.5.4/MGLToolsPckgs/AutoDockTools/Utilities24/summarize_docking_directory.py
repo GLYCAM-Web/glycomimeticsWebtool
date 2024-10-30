@@ -1,4 +1,4 @@
-#!/usr/bin/env /home/yao/programs_src/MGLTools-1.5.4/bin/pythonsh
+#!/usr/bin/env /programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/pythonsh
 #
 # $Id: summarize_docking_directory.py,v 1.5 2007/10/09 17:30:07 annao Exp $
 #

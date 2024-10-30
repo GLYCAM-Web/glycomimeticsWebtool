@@ -1,4 +1,4 @@
-#!/usr/bin/env /home/yao/programs_src/MGLTools-1.5.4/bin/pythonsh
+#!/usr/bin/env /programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/pythonsh
 #$Id: write_random_state_ligand.py,v 1.3 2008/03/04 17:58:57 rhuey Exp $
 import os
 import random

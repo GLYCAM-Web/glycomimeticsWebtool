@@ -6,7 +6,7 @@
 
 ######
 ## Set some environment variable.
-MGL_ROOT="/home/yao/programs_src/MGLTools-1.5.4" 
+MGL_ROOT="/programs/glycomimeticsWebtool/programs_src/MGLTools-1.5.4" 
 export MGL_ROOT
 
 ########

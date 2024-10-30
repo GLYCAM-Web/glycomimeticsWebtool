@@ -1,4 +1,4 @@
-mglroot = '/home/yao/programs_src/MGLTools-1.5.4'
+mglroot = '/programs/glycomimeticsWebtool/external/MGLTools-1.5.4'
 # specify mglroot here
 import sys, os
 path = os.path.join(mglroot, "MGLToolsPckgs")

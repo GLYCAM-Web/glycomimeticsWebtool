@@ -1,4 +1,4 @@
-#!/usr/bin/env /home/yao/programs_src/MGLTools-1.5.4/bin/pythonsh
+#!/usr/bin/env /programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/pythonsh
 # $Header: /opt/cvs/python/packages/share1.5/AutoDockTools/Utilities24/energy_average_maps.py,v 1.2 2007/10/08 18:09:09 rhuey Exp $
 import glob, math
 

@@ -1,7 +1,8 @@
 #!/bin/csh
 ######
 ## Set some environment variables.
-setenv MGL_ROOT /home/yao/programs_src/MGLTools-1.5.4
+setenv MGL_ROOT /programs/glycomimeticsWebtool/External/MGLTools-1.5.4
+
 
 ########
 ## plaform we run on
