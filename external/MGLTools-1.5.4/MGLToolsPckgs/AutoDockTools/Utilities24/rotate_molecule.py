@@ -1,4 +1,4 @@
-#!/usr/bin/env /home/yao/programs_src/MGLTools-1.5.4/bin/pythonsh
+#!/usr/bin/env /programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/pythonsh
 #$Id: rotate_molecule.py,v 1.2 2007/10/08 18:13:30 rhuey Exp $
 import os 
 from MolKit import Read

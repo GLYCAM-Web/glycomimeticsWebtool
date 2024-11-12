@@ -1,4 +1,4 @@
-#!/usr/bin/env /home/yao/programs_src/MGLTools-1.5.4/bin/pythonsh
+#!/usr/bin/env /programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/pythonsh
 # $Id: superimpose_based_on_subset.py,v 1.2 2007/12/04 15:03:24 rhuey Exp $
 
 #---------------------------------------------------------------------------#

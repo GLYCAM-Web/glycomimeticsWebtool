@@ -15,21 +15,21 @@ ADT	-  AutoDockTools
 ****************************************************************************
   To be able to start any of these applications in a Terminal Window
   you will need to:
-  - either add "/home/yao/programs_src/MGLTools-1.5.4/share/bin" to the path environment 
+  - either add "/programs/glycomimeticsWebtool/external/MGLTools-1.5.4/share/bin" to the path environment 
     variable in your .cshrc or .bashrc as in the following example:
-     .cshrc  - set path = (/home/yao/programs_src/MGLTools-1.5.4/bin $path)
-     .bashrc - export PATH="/home/yao/programs_src/MGLTools-1.5.4/bin:"$PATH
+     .cshrc  - set path = (/programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin $path)
+     .bashrc - export PATH="/programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin:"$PATH
   - or create aliases in your .cshrc or .bashrc as in the next examples:
      .cshrc:
-     alias pmv /home/yao/programs_src/MGLTools-1.5.4/bin/pmv
-     alias adt /home/yao/programs_src/MGLTools-1.5.4/bin/adt
-     alias vision /home/yao/programs_src/MGLTools-1.5.4/bin/vision
-     alias pythonsh /home/yao/programs_src/MGLTools-1.5.4/bin/pythonsh
+     alias pmv /programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/pmv
+     alias adt /programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/adt
+     alias vision /programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/vision
+     alias pythonsh /programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/pythonsh
      .bashrc:
-     alias pmv='/home/yao/programs_src/MGLTools-1.5.4/bin/pmv'
-     alias adt='/home/yao/programs_src/MGLTools-1.5.4/bin/adt'
-     alias vision='/home/yao/programs_src/MGLTools-1.5.4/bin/vision'
-     alias pythonsh='/home/yao/programs_src/MGLTools-1.5.4/bin/pythonsh'
+     alias pmv='/programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/pmv'
+     alias adt='/programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/adt'
+     alias vision='/programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/vision'
+     alias pythonsh='/programs/glycomimeticsWebtool/external/MGLTools-1.5.4/bin/pythonsh'
 
 Rehash your path, if needed, for these changes to be in effect:
        c-shell:
@@ -42,9 +42,9 @@ for example:
      > pmv 
 
 A Python Molecule Viewer should come up.  You can load files from the 
-/home/yao/programs_src/MGLTools-1.5.4/Data directory and start playing with PMV.  
+/programs/glycomimeticsWebtool/external/MGLTools-1.5.4/Data directory and start playing with PMV.  
 Simple networks and data for VISION are located in 
-/home/yao/programs_src/MGLTools-1.5.4/MGLToolsPckgs/Vision/Examples.
+/programs/glycomimeticsWebtool/external/MGLTools-1.5.4/MGLToolsPckgs/Vision/Examples.
 
 To run Python interpreter type "pythonsh":
     > pythonsh                    
