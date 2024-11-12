@@ -24,7 +24,12 @@ for folder in analog_* natural; do
      sed -i "s/ntwprt = 0/ntwprt = $n/g" 10.produ.in
      # Job name
      sed -i "s/JOBNAME/$folder/g" submit.GPU.sh
-     sbatch --no-requeue submit.GPU.sh
+     # Hack: If we are not on harper, we need to disable the GPU
+     if [[ $(hostname) == "harper" ]]; then
+         sbatch --no-requeue submit.GPU.sh
+      else
+         sbatch --no-requeue --gres=none submit.GPU.sh
+     fi
     cd ../../
 done
 echo "Finished $0. Ran from $PWD"
