@@ -3,7 +3,7 @@
 git clone -b webtoolOnlyBranch https://github.com/GLYCAM-Web/glycomimetics glycomimetics  
 git clone -b glycomimeticsWebtool https://github.com/GLYCAM-Web/MD_Utils MD_Utils  
 git clone https://github.com/GLYCAM-Web/gmml2 gmml2  
-git clone -b yaoGlycomimetic https://github.com/GLYCAM-Web/gmml gmml
+git clone -b gmml-test https://github.com/GLYCAM-Web/gmml gmml
 
 ## gmml2
 cd gmml2/  
