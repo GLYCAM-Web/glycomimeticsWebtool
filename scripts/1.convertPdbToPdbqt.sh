@@ -11,7 +11,7 @@ systemInfo=$2
 source $systemInfo # installPath variable
 
 # Use oliver's prepreprocessor to fix partial occupancy, rename to ATOM, do CYS bonds, etc
-$installPath/internal/gmml2/tests/gmPreProcessor.exe $userPdb glycomimetics/processed-$userPdb
+$installPath/internal/gmPreProcessor.exe $userPdb glycomimetics/processed-$userPdb
 
 # Prepare User Provided Co-Complex. This is very picky about format.
 mglPath=$installPath/external/MGLTools-1.5.4/
