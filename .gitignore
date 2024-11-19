@@ -2,3 +2,5 @@
 internal/MD_Utils
 internal/glycomimetics
 internal/gmml2/
+internal/gmml
+internal/gmPreProcessor.exe
