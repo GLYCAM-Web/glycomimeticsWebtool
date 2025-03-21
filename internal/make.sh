@@ -6,7 +6,7 @@ echo "Compiling Oliver's preprocessor executables."
 ## gmml2
 cd $GEMSHOME/gmml2/tests/
 GMML_ROOT_DIR=$(git rev-parse --show-toplevel)
-g++ -std=c++17 -I "${GMML_ROOT_DIR}" -L"${GMML_ROOT_DIR}"/bin/ -Wl,-rpath,"${GMML_ROOT_DIR}"/bin/ ../internalPrograms/glycomimeticPreprocessor/glycomimeticPreprocessor.cpp -lgmml2 -pthread -o gmPreProcessor.exe  
+g++ -std=c++17 -I "${GMML_ROOT_DIR}" -L"${GMML_ROOT_DIR}"/lib/ -Wl,-rpath,"${GMML_ROOT_DIR}"/lib/ ../internalPrograms/glycomimeticPreprocessor/glycomimeticPreprocessor.cpp -lgmml2 -pthread -o gmPreProcessor.exe
 cd - # return whence was
 mv $GEMSHOME/gmml2/tests/gmPreProcessor.exe .
 
